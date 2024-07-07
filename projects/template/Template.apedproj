@@ -1,0 +1,18 @@
+// TODO: projinfo.txt?
+
+"Project"
+{
+	"General"
+	{
+		description "A template project"
+		startmap "maps/main.map" // Either such fields will be duplicates and then be converted into the "gameinfo.txt" file or just put them inside of the gameinfo file from the beginning and then simply copy it over to the export folder
+		appicon "assets/game.png"
+	},
+	"Display"
+	{
+		windowwidth 1920
+		windowheight 1080
+		windowtestwidth 1280
+		windowtestheight 600
+	}
+}
